@@ -1,0 +1,53 @@
+{
+    "equipment": [
+        {
+            "id": 1,
+            "name": "Микроскоп",
+            "type": "Оптическое оборудование",
+            "quantity": 5,
+            "isAvailable": true,
+            "lastMaintenance": "2025-06-01",
+            "characteristics": [
+                "увеличение 1000x",
+                "встроенная камера"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Центрифуга",
+            "type": "Лабораторное оборудование",
+            "quantity": 3,
+            "isAvailable": false,
+            "lastMaintenance": "2025-06-15",
+            "characteristics": [
+                "максимальная скорость 15000 об/мин",
+                "емкость 50 мл"
+            ]
+        }
+    ],
+    "experiments": [
+        {
+            "id": 1,
+            "name": "Исследование свойств материала",
+            "description": "Изучение физических свойств нового материала",
+            "startDate": "2024-11-01",
+            "endDate": "2025-03-01",
+            "isCompleted": false,
+            "equipmentUsed": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Химический анализ",
+            "description": "Анализ химического состава вещества",
+            "startDate": "2024-10-15",
+            "endDate": "2024-11-15",
+            "isCompleted": true,
+            "equipmentUsed": [
+                1
+            ]
+        }
+    ]
+}
